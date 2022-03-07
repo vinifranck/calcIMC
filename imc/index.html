@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src=".\fotos\ifno.png" />
+        </div>
+        <div id="ident">
+            <h1>Calculadora IMC</h1>
+        </div>
+        <div id="icon-menu"><img src=".\fotos\calc.png" /></a>
+        </div>
+    </header>
+    <form>
+        <label>Nome:</label><br>
+        <input type="text" id="nome" placeholder="Ex: Breno Heitor Raul Aragão" /><br>
+        <label>Altura em Metros:</label><br>
+        <input type="text" id="altura" placeholder="Ex: 1.91" /><br>
+        <label>Peso em KG:</label><br>
+        <input type="text" id="peso" placeholder="EX: 71" /><br><br>
+        <button id="calcular">Registrar</button><br>
+    </form>
+    <div id="divtabela">
+        <table id="tabela">
+            <tr id="cabecalho">
+                <td>Nome</td>
+                <td>Peso</td>
+                <td>Altura</td>
+                <td>IMC</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./script/script.js">
+</script>
+</html>
